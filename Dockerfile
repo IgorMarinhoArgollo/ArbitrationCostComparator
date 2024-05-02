@@ -1,11 +1,11 @@
 FROM alpine AS build
 
 RUN apk update
-RUN apk add openjdk17
-
+RUN apk add apt-get
+RUN apt-get install openjdk-17-jdk -y
 COPY . .
 
-RUN apk add maven -y
+RUN apt-get install maven -y
 RUN mvn clean install
 
 FROM openjdk:22-slim
