@@ -1,5 +1,6 @@
 package com.ArbitrationCostComparator.model;
 
+import com.ArbitrationCostComparator.domain.Fees;
 import java.util.Map;
 import java.util.Objects;
 import org.springframework.stereotype.Component;

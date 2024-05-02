@@ -1,4 +1,4 @@
-package com.ArbitrationCostComparator.model;
+package com.ArbitrationCostComparator.domain;
 
 import java.util.HashMap;
 import java.util.Map;
