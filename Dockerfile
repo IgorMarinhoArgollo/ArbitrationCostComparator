@@ -1,7 +1,6 @@
-FROM alpine AS build
+FROM ubuntu:latest AS build
 
-RUN apk update
-RUN apk add apt-get
+RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
 COPY . .
 
