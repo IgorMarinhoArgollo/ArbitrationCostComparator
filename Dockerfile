@@ -1,7 +1,8 @@
 FROM alpine AS build
 
 RUN apk update
-RUN apk add openjdk17 -y
+RUN apk add openjdk17
+
 COPY . .
 
 RUN apk add maven -y
