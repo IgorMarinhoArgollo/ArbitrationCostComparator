@@ -1,16 +1,18 @@
 package com.ArbitrationCostComparator.model;
 
-import com.ArbitrationCostComparator.domain.AcbCategory;
-import com.ArbitrationCostComparator.domain.Fees;
+import com.ArbitrationCostComparator.categories.AcbCategory;
+import com.ArbitrationCostComparator.categories.Fees;
 import java.util.Map;
+import org.springframework.stereotype.Component;
 
-public abstract class Acb {
-    public static Map<String, Double> fees(double value, String disputeType, Integer numberOfArbitrators) {
-        AcbCategory category = AcbCategory.findCategory(Double.valueOf(value));
+@Component
+public class Acb {
+    public Map<String, Double> fees(Double value, String disputeType, Integer numberOfArbitrators) {
+        AcbCategory category = AcbCategory.findCategory(value);
 
         if (category != null) {
             double registrationFee = category.getRegistrationFee();
-            double adminFee = calculateAdminFee(Double.valueOf(value));
+            double adminFee = calculateAdminFee(value);
             double arbitratorsFee = calculateArbitratorsFee(category, numberOfArbitrators);
 
             if (disputeType.equals("exp")) {
@@ -24,12 +26,12 @@ public abstract class Acb {
         return null;
     }
 
-    private static Double calculateAdminFee(Double value) {
+    private Double calculateAdminFee(Double value) {
         double adminFee = Math.min(0.02 * value, 180000);
         return Math.max(adminFee, 5000);
     }
 
-    private static Double calculateArbitratorsFee(AcbCategory category, Integer numberOfArbitrators) {
+    private Double calculateArbitratorsFee(AcbCategory category, Integer numberOfArbitrators) {
         return (numberOfArbitrators == 1) ?
             category.getArbitratorsFee() * 1.15 :
             category.getArbitratorsFee() * numberOfArbitrators;

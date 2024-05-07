@@ -1,4 +1,4 @@
-package com.ArbitrationCostComparator.domain;
+package com.ArbitrationCostComparator.categories;
 
 
 public class AcbCategory {

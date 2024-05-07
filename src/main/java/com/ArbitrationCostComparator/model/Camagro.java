@@ -1,6 +1,6 @@
 package com.ArbitrationCostComparator.model;
 
-import com.ArbitrationCostComparator.domain.Fees;
+import com.ArbitrationCostComparator.categories.Fees;
 import java.util.Map;
 import java.util.Objects;
 

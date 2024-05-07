@@ -1,5 +1,6 @@
 package com.ArbitrationCostComparator.controller;
 
+import com.ArbitrationCostComparator.model.Acb;
 import com.ArbitrationCostComparator.service.ComparatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,10 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class ComparatorController {
 
     private final ComparatorService service;
+    private final Acb acb;
 
     @Autowired
-    public ComparatorController(ComparatorService service) {
+    public ComparatorController(ComparatorService service, Acb acb) {
         this.service = service;
+        this.acb = acb;
     }
 
     @GetMapping
