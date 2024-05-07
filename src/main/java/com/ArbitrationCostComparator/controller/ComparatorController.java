@@ -21,9 +21,9 @@ public class ComparatorController {
     @GetMapping
     public ResponseEntity<Object> getResults() {
 
-        Double value = 2000.00;
+        double value = 2000.00;
         String typeOfArbitration = "exp";
-        Integer numberOfArbitrators = 1;
+        Integer numberOfArbitrators = (Integer) 1;
 
         Object response = service.getCosts(value, typeOfArbitration, numberOfArbitrators);
         return ResponseEntity.ok().body(response);

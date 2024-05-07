@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public abstract class Cbma {
-    public static Map<String, Double> fees(Double value, String typeOfArbitration, Integer numberOfArbitrators) {
+    public static Map<String, Double> fees(double value, String typeOfArbitration, Integer numberOfArbitrators) {
 
         Double registrationFee = value;
         Double administrationFee;

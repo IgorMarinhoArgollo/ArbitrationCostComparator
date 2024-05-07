@@ -5,12 +5,12 @@ import com.ArbitrationCostComparator.domain.Fees;
 import java.util.Map;
 
 public abstract class Acb {
-    public static Map<String, Double> fees(Double value, String disputeType, Integer numberOfArbitrators) {
-        AcbCategory category = AcbCategory.findCategory(value);
+    public static Map<String, Double> fees(double value, String disputeType, Integer numberOfArbitrators) {
+        AcbCategory category = AcbCategory.findCategory(Double.valueOf(value));
 
         if (category != null) {
             double registrationFee = category.getRegistrationFee();
-            double adminFee = calculateAdminFee(value);
+            double adminFee = calculateAdminFee(Double.valueOf(value));
             double arbitratorsFee = calculateArbitratorsFee(category, numberOfArbitrators);
 
             if (disputeType.equals("exp")) {

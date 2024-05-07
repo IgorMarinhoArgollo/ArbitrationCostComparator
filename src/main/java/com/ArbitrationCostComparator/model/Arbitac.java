@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Objects;
 
 public abstract class Arbitac {
-    public static Map<String, Double> fees(Double value, String typeOfArbitration, Integer numberOfArbitrators) {
+    public static Map<String, Double> fees(double value, String typeOfArbitration, Integer numberOfArbitrators) {
 
         Double registrationFee = value;
         Double administrationFee;

@@ -20,7 +20,7 @@ import com.ArbitrationCostComparator.model.Cbma;
 @Service
 public class ComparatorService {
 
-    public Map<String, Map<String, Double>> getCosts(Double value, String typeOfArbitration, Integer numberOfArbitrators) {
+    public Map<String, Map<String, Double>> getCosts(double value, String typeOfArbitration, Integer numberOfArbitrators) {
         Map<String, Map<String, Double>> result = new HashMap<>();
 
         result.put("ACB", Acb.fees(value, typeOfArbitration, numberOfArbitrators));
