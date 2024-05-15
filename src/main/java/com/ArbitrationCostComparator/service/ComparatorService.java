@@ -16,7 +16,7 @@ public class ComparatorService {
         this.acb = acb;
     }
 
-    public Map<String, Map<String, Double>> getCosts(Double value, String typeOfArbitration, Integer numberOfArbitrators) {
+    public Map<String, Map<String, Double>> getCosts(Double value, String typeOfArbitration, Integer numberOfArbitrators, Integer timeEstimation) {
         Map<String, Map<String, Double>> result = new HashMap<>();
 
         result.put("ACB", acb.fees(value, typeOfArbitration, numberOfArbitrators));

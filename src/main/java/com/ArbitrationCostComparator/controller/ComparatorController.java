@@ -26,9 +26,10 @@ public class ComparatorController {
 
         double value = 2000.00;
         String typeOfArbitration = "exp";
-        Integer numberOfArbitrators = (Integer) 1;
+        Integer numberOfArbitrators = 1;
+        Integer timeEstimation = 12;
 
-        Object response = service.getCosts(value, typeOfArbitration, numberOfArbitrators);
+        Object response = service.getCosts(value, typeOfArbitration, numberOfArbitrators, timeEstimation);
         return ResponseEntity.ok().body(response);
     }
 }
