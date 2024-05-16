@@ -1,6 +1,7 @@
 package com.ArbitrationCostComparator.controller;
 
 import com.ArbitrationCostComparator.model.Acb;
+import com.ArbitrationCostComparator.model.Ccbc;
 import com.ArbitrationCostComparator.service.ComparatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,22 +15,27 @@ public class ComparatorController {
 
     private final ComparatorService service;
     private final Acb acb;
+    private final Ccbc ccbc;
 
     @Autowired
-    public ComparatorController(ComparatorService service, Acb acb) {
+    public ComparatorController(ComparatorService service, Acb acb, Ccbc ccbc) {
         this.service = service;
         this.acb = acb;
+        this.ccbc = ccbc;
     }
 
     @GetMapping
     public ResponseEntity<Object> getResults() {
-
-        double value = 2000.00;
+        double value = 3000;
         String typeOfArbitration = "exp";
-        Integer numberOfArbitrators = 1;
-        Integer timeEstimation = 12;
+        int numberOfArbitrators = 3;
+        int estimatedTime = 12;
 
-        Object response = service.getCosts(value, typeOfArbitration, numberOfArbitrators, timeEstimation);
-        return ResponseEntity.ok().body(response);
+        if (numberOfArbitrators == 1 || numberOfArbitrators == 3) {
+            Object response = service.getCosts(value, typeOfArbitration, numberOfArbitrators, estimatedTime);
+            return ResponseEntity.ok().body(response);
+        } else {
+            return ResponseEntity.badRequest().body("Number of Arbitrators must be 1 or 3");
+        }
     }
 }

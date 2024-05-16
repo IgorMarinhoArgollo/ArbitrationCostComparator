@@ -32,7 +32,7 @@ public class AcbCategory {
 
     public static AcbCategory findCategory(Double value) {
         AcbCategory[] categories = {
-            new AcbCategory(0, 100000, 1500, 6000),
+            new AcbCategory(0, 100000, 8000, 6000),
             new AcbCategory(100000, 250000, 2000, 10000),
             new AcbCategory(250000, 500000, 2500, 15000),
             new AcbCategory(500000, 750000, 3000, 19000),
