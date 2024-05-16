@@ -95,47 +95,63 @@
 
 ### CAMARB
 ##### Registro
-5.000
+    Para solicitar a instituição de arbitragem, a parte deverá fazer o pagamento da Taxa de Registro, atualmente fixada no valor de R$ 5.000,00 (cinco mil reais).
+
+
+<br />
 
 ##### Taxa de Administração
-| Faixa                      | Valor                                                  |
-|----------------------------|--------------------------------------------------------|
-| 0 até 500.000              | 14.040                                                 |
-| 500.000 até 1.000.000      | 14.040 + 1,980% sobre o que exceder 500.000            |
-| 1.000.001 até 5.000.000    | 23.940 + 1,170% sobre o que exceder 1.000.000          |
-| 5.000.001 até 10.000.000   | 70.740 + 0,486% sobre o que exceder 5.000.000          |
-| 10.000.001 até 15.000.000  | 95.040 + 0,216% sobre o que exceder 10.000.000         |
-| 15.000.001 até 20.000.000  | 105.840 + 0,162% sobre o que exceder 15.000.000        |
-| 20.000.001 até 50.000.000  | 113.940 + 0,126% sobre o que exceder 20.000.000        |
-| 50.000.001 até 100.000.000 | 151.740 + 0,072% sobre o que exceder 50.000.000        |
-| 100.000.001 – infinite     | 187.740 + 0,026% sobre o que exceder 100.000.000,00.   |
+| De                   | Até          | Valor                                               |
+|----------------------|--------------|-----------------------------------------------------|
+| 0                    | 500.000      | 14.040                                              |
+| 500.000              | 1.000.000    | 14.040 + 1,980% sobre o que exceder 500.000,00      |
+| 1.000.001            | 5.000.000    | 23.940 + 1,170% sobre o que exceder 1.000.000,00    |
+| 5.000.001            | 10.000.000   | 70.740 + 0,486% sobre o que exceder 5.000.000,00    |
+| 10.000.001           | 15.000.000   | 95.040 + 0,216% sobre o que exceder 10.000.000,00   |
+| 15.000.001           | 20.000.000   | 105.840 + 0,162% sobre o que exceder 15.000.000,00  |
+| 20.000.001           | 50.000.000   | 113.940 + 0,126% sobre o que exceder 20.000.000,00  |
+| 50.000.001           | 100.000.000  | 151.740 + 0,072% sobre o que exceder 50.000.000,00  |
+| 100.000.001          | –            | 187.740 + 0,026% sobre o que exceder 100.000.000,00 |
+ * Limitado à taxa máxima de 360.000,00
 
-* Limitado à 360.000
+<br />
 
 ##### Taxa de Honorários
-| Faixa                          | Valor                                            |
-|--------------------------------|--------------------------------------------------|
-| 0 até 500.000                  | 20.930                                           |
-| 500.001 até 1.000.000          | 20.930 + 3,250% sobre o que exceder 500.000      |
-| 1.000.001 até 1.500.000        | 37.180 + 2,470% sobre o que exceder 1.000.000    |
-| 1.500.001 até 2.000.000        | 49.530 + 1,456% sobre o que exceder 1.500.000    |
-| 2.000.001 até 5.000.000        | 56.810 + 0,845% sobre o que exceder 2.000.000    |
-| 5.000.001 até 10.000.000       | 82.160 + 0,780% sobre o que exceder 5.000.000    |
-| 10.000.001 até 15.000.000      | 121.160 + 0,650% sobre o que exceder 10.000.000  |
-| 15.000.001 até 20.000.000      | 153.660 + 0,390% sobre o que exceder 15.000.000  |
-| 20.000.001 até 30.000.000      | 173.160 + 0,195% sobre o que exceder 20.000.000  |
-| 30.000.001 até 40.000.000      | 192.660 + 0,130% sobre o que exceder 30.000.000  |
-| 40.000.001 até 50.000.000      | 205.660 + 0,091% sobre o que exceder 40.000.000  |
-| 50.000.001 até 100.000.000     | 214.760 + 0,065% sobre o que exceder 50.000.000  |
-| 100.000.001 até 200.000.000    | 247.260 + 0,052% sobre o que exceder 100.000.000 |
-| 200.000.001 até 500.000.000    | 299.260 + 0,026% sobre o que exceder 200.000.000 |
-| 500.000.001 –                  | 455.000 + 0,013% sobre o que exceder 500.000.000 |
+| Faixa                       | Valor                                            |
+|-----------------------------|--------------------------------------------------|
+| 0 até 500.000               | 20.930                                           |
+| 500.000 até 1.000.000       | 20.930 + 3,250% sobre o que exceder 500.000      |
+| 1.000.000 até 1.500.000     | 37.180 + 2,470% sobre o que exceder 1.000.000    |
+| 1.500.000 até 2.000.000     | 49.530 + 1,456% sobre o que exceder 1.500.000    |
+| 2.000.000 até 5.000.000     | 56.810 + 0,845% sobre o que exceder 2.000.000    |
+| 5.000.000 até 10.000.000    | 82.160 + 0,780% sobre o que exceder 5.000.000    |
+| 10.000.000 até 15.000.000   | 121.160 + 0,650% sobre o que exceder 10.000.000  |
+| 15.000.000 até 20.000.000   | 153.660 + 0,390% sobre o que exceder 15.000.000  |
+| 20.000.000 até 30.000.000   | 173.160 + 0,195% sobre o que exceder 20.000.000  |
+| 30.000.000 até 40.000.000   | 192.660 + 0,130% sobre o que exceder 30.000.000  |
+| 40.000.000 até 50.000.000   | 205.660 + 0,091% sobre o que exceder 40.000.000  |
+| 50.000.000 até 100.000.000  | 214.760 + 0,065% sobre o que exceder 50.000.000  |
+| 100.000.000 até 200.000.000 | 247.260 + 0,052% sobre o que exceder 100.000.000 |
+| 200.000.000 até 500.000.000 | 299.260 + 0,026% sobre o que exceder 200.000.000 |
+| 500.000.000 –               | 455.000 + 0,013% sobre o que exceder 500.000.000 |
+* A tabela foi ajustada nos limites inferiores, em função de valores com centavos.
 
-* Caso a arbitragem seja conduzida por tribunal o presidente recebera o valor acrescido em 15%.
-* Sendo a arbitragem conduzida por árbitro único, o valor de honorários será igual ao valor de referência acima acrescido em 30%
+1. Se a arbitragem for conduzida por três ou mais árbitros, os honorários de cada co-árbitro serão iguais ao valor de referência acima. Os honorários devidos ao Presidente do Tribunal Arbitral serão iguais ao valor de referência, acrescido de 15%.
+2. Sendo a arbitragem conduzida por árbitro único, o valor de honorários será igual ao valor de referência acima acrescido em 30%.
 
 #### Arbitragem Expedita
-* Taxa de Administração e Honorários de Árbitros é reduzido em 30%.
+III  DA SOLICITAÇÃO DE ARBITRAGEM
+
+3.7   Será aplicado à arbitragem requerida o Regulamento de Arbitragem Expedita da CAMARB se:
+
+(b)   o valor estimado da demanda e o valor estimado da demanda reconvencional for, cada um, inferior a R$ 3.000.000,00 (três milhões de reais), e nenhuma das partes tiver formulado objeção ao uso do Regulamento de Arbitragem Expedita; ou
+
+<br />
+XI  DA TAXA DE ADMINISTRAÇÃO, HONORÁRIOS DE ÁRBITRO E DEMAIS DESPESAS
+
+11.1  A CAMARB manterá a Tabela da Taxa de Administração, Honorários de Árbitros e demais despesas, que poderá ser revista a qualquer tempo por ato da Diretoria. Na hipótese de aplicação do Regulamento de Arbitragem Expedita, a Taxa de Administração e Honorários de Árbitros serão calculados na forma deste Regulamento, aplicado desconto de 30% sobre os respectivos valores.
+
+
 
 ***
 

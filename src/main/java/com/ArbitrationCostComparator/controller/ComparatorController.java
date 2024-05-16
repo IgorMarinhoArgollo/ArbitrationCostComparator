@@ -1,6 +1,7 @@
 package com.ArbitrationCostComparator.controller;
 
 import com.ArbitrationCostComparator.model.Acb;
+import com.ArbitrationCostComparator.model.Camarb;
 import com.ArbitrationCostComparator.model.Ccbc;
 import com.ArbitrationCostComparator.service.ComparatorService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,12 +17,14 @@ public class ComparatorController {
     private final ComparatorService service;
     private final Acb acb;
     private final Ccbc ccbc;
+    private final Camarb camarb;
 
     @Autowired
-    public ComparatorController(ComparatorService service, Acb acb, Ccbc ccbc) {
+    public ComparatorController(ComparatorService service, Acb acb, Ccbc ccbc, Camarb camarb) {
         this.service = service;
         this.acb = acb;
         this.ccbc = ccbc;
+        this.camarb = camarb;
     }
 
     @GetMapping
